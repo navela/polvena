@@ -18,20 +18,7 @@ polvena is a graphics library which creates reusable objects and allows for modu
 
 ## API Documentation ##
 
-Online documentation can be found at http://moutjs.com/ or inside the
-`doc` folder.
-
-
-
-## FAQ / Wiki / IRC ##
-
-For more info about project structure, design decisions, tips, how to
-contribute, build system, etc, please check the [project
-wiki](https://github.com/mout/mout/wiki).
-
-We also have an IRC channel [#moutjs on
-irc.freenode.net](http://webchat.freenode.net/?channels=moutjs)
-
+Online documentation will soon be found at http://polvenajs.com/ or inside the `doc` folder.
 
 
 ## License ##
