@@ -1,17 +1,18 @@
-define(['./move'], function (forOwn) {
+define(['./move', './raphael'], function (Raphael) {
 
     /**
      * move the object
      */
-    function move(x, y) {
-        var vals = [];
-        for(var i = 0; i < vals.length; i += 1){
-            vals.push(x);
-            vals.push(y);
-        }
-        return vals;
+    function move(paper){
+
+        var star = paper.circle(100,100,40).attr({fill: "red"}); 
+        paper.text(100,100, "CLICKME").attr({"font-size": 22});
+        star.click(function(evt){
+            star.animate({fill: "blue", transform: "s2.0"}, 1000, "linear");
+        });
+    
+
     }
 
-    return move;
-
 });
+

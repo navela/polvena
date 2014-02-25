@@ -1,10 +1,12 @@
-define(['./init'], function (has) {
+define(['./draw', './raphael'], function (Raphael) {
 
     /**
      * init the object
      */
     function init(){
-        draw(5,3);
+
+        var paper = Raphael("paper1", 500,500);
+        draw(paper);
     }
 
 
