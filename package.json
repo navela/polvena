@@ -1,8 +1,8 @@
 {
   "name": "polvena",
-  "description": "Polvena a library for expressive JavaScript",
-  "version": "0.9.0",
-  "homepage": "http://moutjs.com/",
+  "description": "Polvena a graphics library for Snap.svg",
+  "version": "0.0.1",
+  "homepage": "http://isekivace.nz/polvena",
   "contributors": [
     "Steven Iseki"
   ],
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/polvena/polvena.git"
+    "url": "https://github.com/StevenIseki/polvena.git"
   },
   "licenses": [
     {
@@ -32,14 +32,6 @@
     "doc": "./doc"
   },
   "devDependencies": {
-    "istanbul": "~0.1.27",
-    "jasmine-node": "~1.2.2",
-    "requirejs": "2.x",
-    "nodefy": "*",
-    "mdoc": "~0.3.2",
-    "handlebars": "~1.0.6",
-    "commander": "~1.0.5",
-    "rocambole": "~0.2.3",
     "jshint": "2.x",
     "rimraf": "~2.2.2",
     "regenerate": "~0.5.4"
@@ -77,10 +69,6 @@
       ]
     },
     "scripts": [
-      "tests/lib/jasmine/jasmine.js",
-      "tests/lib/jasmine/jasmine.async.js",
-      "tests/lib/jasmine/jasmine-tap.js",
-      "tests/lib/requirejs/require.js",
       "tests/testling/src.js",
       "tests/testling/specs.js",
       "tests/runner.js"
